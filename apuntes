@@ -1,0 +1,18 @@
+Otra formula:
+var element = prompt("Coloque su texto aquí");
+function cipher(str) {
+var strArray = str.split
+var abecedario = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var array = alphabet.split("");
+var finalArray = [];
+for (var i = 0; i < strArray.length; i++){
+if (array .indexOf(strArray[i]) !== -1) {
+var indexOfChar = array.indexOf(strArray[i]) + 33;
+finalArray.push(alphaArray[indexOfChar]);
+} else {
+finalArray.push(strArray[i]);
+}
+}
+var finalString = finalArray.join("");
+return finalString;
+}
